@@ -50,19 +50,19 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
+  \item[$\circ$]\small{
     \textbf{#1}{: #2 \vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeItems}[2]{
-	\item\small{
+	\item[$\circ$]\small{
 		\textbf{#1}{ #2 \vspace{-7pt}}
 	}
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+  \vspace{-1pt}\item[]
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
@@ -73,7 +73,7 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[ leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -96,7 +96,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Natioanl Institute of Technology}{Patna, India}
-      {Bachelor of Technology in Information Technology;  GPA: 9.12 (1st Rank)}{July. 2011 -- June. 2015}
+      {Bachelor of Technology in Information Technology;  GPA: 9.12 (1st Rank)}{July 2011 -- June 2015}
   \resumeSubHeadingListEnd
 
 
@@ -105,7 +105,7 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {BankBazaar.com}{Bengaluru, India}
+      {\href{https://www.bankbazaar.com/} {BankBazaar}}{Bengaluru, India}
       {Software Engineer}{Dec 2016 - Present}
       \resumeItemListStart
         \resumeItem{Personalization}
@@ -113,21 +113,21 @@
         \resumeItem{Test Automation}
           {Built automation framework to simulate various kind of real-time logs, processing them in bulk with Hadoop EMR followed by ETL injection into Redshift to test the robustness of Warehouse on daily basis.}
           \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal engine to access the data using a web interface. Bulk data processing from Hadoop for daily ETL injection into Redshift.}
+          {Setup, schema design and management of Amazon Redshift. Built an internal engine to access the data using a web interface. Bulk data processing with Hadoop for daily ETL injection into Redshift.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Snapdeal}{Bengaluru, India}
+      {\href{https://www.snapdeal.com/}{Snapdeal}}{Bengaluru, India}
       {Software Engineer}{July 2015 - Nov 2016}
       \resumeItemListStart
         \resumeItem{Product Quality Index}
-          {Core module for all search services at Snapdeal. Built machine learning system to set up the complete ranking mechanism. Worked on both offline training and online serving​.​}
+          {Core module for all search services at Snapdeal. Built machine learning system to set up the ranking mechanism. This mechanism is used as one of the parameter in product search listing.​}
         \resumeItem{Reviews and Ratings}
-          {Service for publishing reviews/ratings, fetching various user-generated contents. Developed highly scalable back-end API's with average and 99 \% response time under 30ms handling approx 300k requests per minute to cater several clients.}
+          {Service for publishing reviews/ratings, fetching various user-generated content. Developed highly scalable back-end APIs with average and 99 \% response time under 30ms handling approx 300k requests per minute to cater several clients.}
         \resumeItem{Project Selfie}
           {Image review system of Snapdeal. Designed dashboard for the moderator to search and filter out user selfies with the product. Involved in both back-end and front-end development.}
         \resumeItem{Questions and Answers}
-          {Worked broadly on designing and ​optimizing backend API's including auto-moderation of feedback post submission and search for questions and answers.}
+          {Worked broadly on designing and ​optimizing backend APIs including auto-moderation of feedback post submission and search for questions and answers.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -141,40 +141,41 @@
 
   \resumeSubHeadingListEnd
 
-%-----------PUBLICATIONS-----------------
-\section{Publications}
-\resumeSubHeadingListStart
-\resumeSubItem{Privacy Enhancement in E-Mail Clients}
-{Published by Springer International Publishing Switzerland.}
-\resumeSubHeadingListEnd
-
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeSubItem{Privacy Enhancement in Email Clients}
       {Designed and tweaked an open source E-mail client to improve privacy features in web
-      	mail clients from both sender as well as receiver perspective.}
+      	mail clients from both sender and receiver perspective.}
   \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------------
 \section{Programming Skills}
   \resumeSubHeadingListStart
-    \item{
-      \textbf{Languages}{: Java, Python, SQL, AngularJs}
-      \hfill
-      \textbf{Technologies}{: Cassandra, AWS, Hadoop, MongoDB, Elasticsearch, Kafka}
+    \item[]{
+      \textbf{Languages}{: Java, Python, SQL, AngularJs, C.}\\
+      \textbf{Technologies}{: Cassandra, AWS, Spring, MySQL, Hadoop, MongoDB, Elasticsearch, Kafka.}
     }
   \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeSubItem{ \href{https://rd.springer.com/chapter/10.1007/978-3-319-32467-8_118}{Privacy Enhancement in E-Mail Clients}}
+{Published by Springer International Publishing Switzerland.}
+\resumeSubItem{ Product Quality Prediction in a Large E-commerce Environment}
+{White paper at Snapdeal.}
+\resumeSubHeadingListEnd
 
 %-----------Achievements-----------------
 \section{Achievements}
 \ \resumeItemListStart
 	\resumeItems{}{Honored with Gold Award from Snapdeal for excellence, innovation, quality and growth.}
 	\resumeItems{}{Sole recipient of Director's Gold Medal in a batch of 80 students at undergraduate level, NIT Patna.}
-	\resumeItems{}{Stood 1st in Algo-Z-Ripper (Coding competition during National level annual Tech Fest Corona, NIT Patna).}
-	\resumeItems{}{Stood 2nd in WebWeaver (Web Designing competition during National level annual Tech Fest Corona, NIT Patna).}
+	\resumeItems{}{Stood 1st in Algo-Z-Ripper (Coding competition during National level annual tech fest Corona, NIT Patna).}
+	\resumeItems{}{Stood 2nd in WebWeaver (Web Designing competition during National level annual tech fest Corona, NIT Patna).}
 	\resumeItems{}{Served as core team member of official Web Development Team at NIT Patna.}
-	\resumeItems{}{Awarded District Topper in science quiz organised by Indian Culture Knowledge Haridwar.}
+	\resumeItems{}{District Topper in science quiz organised by Indian Culture Knowledge Haridwar.}
 \resumeItemListEnd
 %-------------------------------------------
 \end{document}
